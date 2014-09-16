@@ -1,0 +1,276 @@
+body {
+	background: url(../image/grafitti.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+	font-family: 'comic sans ms', impact, sans-serif;
+}
+
+
+a {
+	text-decoration: none;
+	color: #003171;
+}
+
+#wrapper {
+	max-width: 70%; 
+	margin: 20px auto;
+	background-color: rgba(10,10,10, .4);
+	padding: 2%;
+	text-align: center;
+	border: 1.5px solid #95A5A6;
+	border-radius: 20px;
+	overflow: auto;
+}
+
+#wrap {
+	max-width: 70%; 
+	margin: 20px auto;
+	background-color: rgba(10,10,10, .4);
+	padding: 2%;
+	border: 1.5px solid #95A5A6;
+	border-radius: 20px;
+	overflow: auto;
+}
+
+#logo {
+
+	text-align: center;
+	display: block;
+}
+
+#logo img {
+	max-width: 100%;
+}
+
+#logo:hover {
+	
+}
+
+nav {
+	/*border-top: 0.8px solid #003171;*/
+	padding: 4px;
+	background-image: linear-gradient(to top, #757D75 10%,#D2D7D3 );
+	text-align: center;
+}
+
+nav a {
+	font-family: 'comic sans ms', impact, sans-serif;
+	margin: auto 40px;
+	color: #000;
+}
+
+nav li {
+	display: inline-block;
+	padding: 1%;
+}
+
+a.selected, a:hover {
+	color: #fff;
+}
+
+h1 {
+	color: #ECF0F1;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: 'comic sans ms',tahoma,sans-serif;
+	padding: 2px;
+	margin: 5px;
+}	
+
+footer {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	bottom: 0;
+	text-align: center;
+}
+
+#welcome {
+	text-align: center;
+	padding: 20px;
+}
+
+#welcome p {
+	color: white;
+	font-family: 'comic sans ms', lucida, sans-serif;
+	font-size: .95em;  
+	padding: 10px;
+}
+
+span {
+	color: black;
+	font-family: impact,sans-serif;
+}
+
+/*.linker {
+	margin: 20px 110px;
+}
+*/
+#graphic_link {
+	text-align: center;
+}
+
+#graphic_link, #web_link {
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 2px 2px #6C7A89;
+	max-width: 100%;
+}
+
+
+#graphicgallery img, #webgallery img {
+	max-width: 100%;
+}
+
+#graphicgallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#graphicgallery li{
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	border-radius: 20px;
+}
+
+#graphicgallery li a p {
+	padding: 3%;
+	font-size: 0.9em;
+	color: #999999;
+	background-color: #ccc;
+	/*border-radius: 20px;*/
+}
+
+#webgallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#webgallery li{
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+}
+
+#webgallery li a p {
+	margin: 2.5%;
+	padding: 5%;
+	font-size: 0.6em;
+	color: #999999;
+	background-color: #ccc;
+}
+
+.about {
+	padding: 40px;
+	background: rgba(10,10,10,.4);
+	max-width: 70%;
+	margin: 60px auto;
+	text-align: justify;
+	font-family: 'comic sans ms', tahoma, sans-serif;
+	border: 1.5px solid #95A5A6;
+	border-radius: 20px;
+	box-shadow: 0 2px 2px #999;
+}
+
+.about p {
+	color: #ECF0F1;
+}
+
+.about h3 {
+	font-size: 1.5em;
+	font-weight: bolder;
+	margin-bottom: 15px;
+}
+
+.profile-pix {
+	float: left;
+	display: block;
+	max-width: 150px;
+	margin: 0 3% 3%;
+	border-radius: 20px;
+}
+
+.social-icon {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
+
+#primary {
+	width: 50%;
+	float: left;
+}
+
+#secondary {
+	width: 40%;
+	float: right;
+}
+
+#primary h3, #secondary h3 {
+	margin-bottom: 20px;
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+
+#primary p {
+	color: #ECF0F1
+}
+
+
+#overlay {
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	text-align: center;
+}
+
+
+#overlay img {
+	max-width: 100%;
+	margin-top: 7%;
+}
+
+#overlay p {
+	font-family: 'comic sans ms', tahoma, sans-serif;
+	color: white;
+	font-weight: bold;
+}
+
+
+/*.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+*/
+
+.contact-info li.phone a {
+	background-image: url('../image/phone.png');
+}
+
+.contact-info li.mail a {
+	background-image: url('../image/mail.png');
+}
+
+.contact-info li.twitter a {
+	background-image: url('../image/twitter_2.png');
+}
