@@ -29,10 +29,11 @@ a {
 	max-width: 70%; 
 	margin: 20px auto;
 	background-color: rgba(10,10,10, .4);
-	padding: 2%;
+	padding: 3%;
 	border: 1.5px solid #95A5A6;
 	border-radius: 20px;
 	overflow: auto;
+	margin-bottom: 100px;
 }
 
 #logo {
@@ -207,6 +208,10 @@ span {
 	float: left;
 }
 
+#primary p {
+	padding: 5px;
+}
+
 #secondary {
 	width: 40%;
 	float: right;
@@ -220,6 +225,10 @@ span {
 
 #primary p {
 	color: #ECF0F1
+}
+
+#secondary li {
+	padding: 10px;
 }
 
 
@@ -246,31 +255,64 @@ span {
 	font-weight: bold;
 }
 
+@media screen and (max-width: 820px) {
+	nav a {
+		margin: auto 10px;
+	}	
 
-/*.contact-info {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	font-size: 0.9em;
-}
-.contact-info a {
-	display: block;
-	min-height: 20px;
-	background-repeat: no-repeat;
-	background-size: 20px 20px;
-	padding: 0 0 0 30px;
-	margin: 0 0 10px;
-}
-*/
-
-.contact-info li.phone a {
-	background-image: url('../image/phone.png');
 }
 
-.contact-info li.mail a {
-	background-image: url('../image/mail.png');
+@media screen and (max-width: 480px) {
+	#wrap {
+		padding: 10%;
+	}
+
 }
 
-.contact-info li.twitter a {
-	background-image: url('../image/twitter_2.png');
+@media screen and (max-width: 320px) {
+	nav a {
+		font-size: 0.7em;
+		margin: 5px;
+	}
+
+	#primary {
+		margin-left: 20px;
+		margin-bottom: 40px;
+		text-align: left;
+	}
+
+	#secondary {
+		margin-left: 20px;
+		float: none;
+		margin-bottom: 40px;
+	}
+
+	#secondary h3 {
+		margin-top: 20px;
+	}
+
+}
+
+@media screen and (max-width: 360px) {
+	nav a {
+		font-size: 0.7em;
+		margin: 5px;
+	}
+
+	#primary {
+		margin-left: 20px;
+		margin-bottom: 40px;
+		text-align: left;
+	}
+
+	#secondary {
+		margin-left: 20px;
+		float: none;
+		margin-bottom: 40px;
+	}
+
+	#secondary h3 {
+		margin-top: 20px;
+	}
+
 }
